@@ -1,4 +1,5 @@
 public class ListNode {
+    //单向链表
      int val; //节点的值
      ListNode next = null; //节点的指向
 
