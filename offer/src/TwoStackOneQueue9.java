@@ -1,4 +1,3 @@
-package offer;
 import java.util.Stack;
 
 public class TwoStackOneQueue9 {

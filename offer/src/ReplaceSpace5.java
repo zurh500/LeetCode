@@ -1,5 +1,3 @@
-package offer;
-
 public class ReplaceSpace5 {
     public static String replaceSpace1(StringBuffer str) {
         /*

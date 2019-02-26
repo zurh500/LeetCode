@@ -1,5 +1,3 @@
-package offer.offer.List6;
-
 public class ListNode {
      int val; //节点的值
      ListNode next = null; //节点的指向
