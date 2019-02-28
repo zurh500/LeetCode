@@ -1,10 +1,8 @@
 public class ListNode {
-    //单向链表
-    int val; //节点的值
-    ListNode next = null; //节点的指向
-
-    ListNode(int val) {
-        this.val = val;
+    int val;
+    ListNode next;
+    ListNode(int x) {
+      val = x;
     }
 
     //也可以自定义一个构造函数 通过数组转成链表，当前ListNode为头结点
@@ -14,12 +12,11 @@ public class ListNode {
         }
         this.val = arr[0]; //当前的节点为数组的第一个元素
         ListNode cur = this;  //cur初始化为当前节点
-        for (int i = 1; i < arr.length; i++) {
+        for (int i = 1 ; i < arr.length; i++) {
             cur.next = new ListNode(arr[i]);
             cur = cur.next;
         }
     }
-
     @Override
     public String toString() {
         StringBuilder sb = new StringBuilder();
